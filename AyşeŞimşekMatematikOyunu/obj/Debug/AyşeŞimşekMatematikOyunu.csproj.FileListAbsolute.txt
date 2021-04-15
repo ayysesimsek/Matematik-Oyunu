@@ -1,0 +1,12 @@
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\bin\Debug\AyşeŞimşekMatematikOyunu.exe.config
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\bin\Debug\AyşeŞimşekMatematikOyunu.exe
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\bin\Debug\AyşeŞimşekMatematikOyunu.pdb
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.csprojAssemblyReference.cache
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.Properties.Resources.resources
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.csproj.GenerateResource.cache
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.csproj.CoreCompileInputs.cache
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.exe
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.pdb
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.NasılOynanır.resources
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.İslemSeçme.resources
+C:\Users\Mrs Engineer\source\repos\AyşeŞimşekMatematikOyunu\AyşeŞimşekMatematikOyunu\obj\Debug\AyşeŞimşekMatematikOyunu.StartedPlay.resources

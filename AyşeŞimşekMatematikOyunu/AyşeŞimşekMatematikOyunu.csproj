@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BB96641-C85B-4255-85A4-62D62474AC96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AyşeŞimşekMatematikOyunu</RootNamespace>
+    <AssemblyName>AyşeŞimşekMatematikOyunu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data.cs" />
+    <Compile Include="NasılOynanır.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NasılOynanır.Designer.cs">
+      <DependentUpon>NasılOynanır.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartedPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartedPlay.Designer.cs">
+      <DependentUpon>StartedPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İslemSeçme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İslemSeçme.Designer.cs">
+      <DependentUpon>İslemSeçme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transaction.cs" />
+    <EmbeddedResource Include="NasılOynanır.resx">
+      <DependentUpon>NasılOynanır.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartedPlay.resx">
+      <DependentUpon>StartedPlay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İslemSeçme.resx">
+      <DependentUpon>İslemSeçme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-mathematical-notation-mathematics-symbol-arithmeti-multiply-cliparts-5a862d98138017.1560393815187429360799.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_221474924-stock-illustration-singing-cartoon-multiply-sign-for.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_59803951-stock-illustration-abstract-division-sign.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\340551-3-4-e270c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e6c67ff98d07a200b0974d0ce3745258.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tek_yildiz.png" />
+    <None Include="Resources\ikiyildiz.png" />
+    <None Include="Resources\ucyildiz.png" />
+    <None Include="Resources\56661810-abstract-math-number-background-vector-illustration-for-business-design-black-white-colors-random-si.jpg" />
+    <None Include="Resources\blackboardtexture.jpg" />
+    <None Include="Resources\images %284%29.jpg" />
+    <None Include="Resources\images %285%29.jpg" />
+    <None Include="Resources\indir %281%29.jpg" />
+    <None Include="Resources\images %286%29.jpg" />
+    <None Include="Resources\images %287%29.jpg" />
+    <None Include="Resources\twisted-colored-numbers-on-white-background-peter-hermes-furian.jpg" />
+    <None Include="Resources\images %281%29.png" />
+    <Content Include="ScoreList.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
